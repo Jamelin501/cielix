@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     // Création des Videos
     var vid_aqua = document.createElement('video');
-    vid_aqua.src = "/vid/ba_aqua2.mp4";
+    vid_aqua.src = "./vid/ba_aqua2.mp4";
     vid_aqua.controls = true;
 
     // Ajout d'un écouteur d'événements pour le clic sur un bouton
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     // Création des Videos
     var vid_wonk = document.createElement('video');
-    vid_wonk.src = "/vid/ba_wonk.mp4";
+    vid_wonk.src = "./vid/ba_wonk.mp4";
     vid_wonk.controls = true;
 
     // Ajout d'un écouteur d'événements pour le clic sur un bouton
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     // Création des Videos
     var vid_pac = document.createElement('video');
-    vid_pac.src = "/vid/ba_pac.mp4";
+    vid_pac.src = "./vid/ba_pac.mp4";
     vid_pac.controls = true;
 
     // Ajout d'un écouteur d'événements pour le clic sur un bouton
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     // Création des Videos
     var vid_dead = document.createElement('video');
-    vid_dead.src = "/vid/ba_dead.mp4";
+    vid_dead.src = "./vid/ba_dead.mp4";
     vid_dead.controls = true;
 
     // Ajout d'un écouteur d'événements pour le clic sur un bouton
@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     // Création des Videos
     var vid_aste = document.createElement('video');
-    vid_aste.src = "/vid/ba_aste.mp4";
+    vid_aste.src = "./vid/ba_aste.mp4";
     vid_aste.controls = true;
 
     // Ajout d'un écouteur d'événements pour le clic sur un bouton
@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     // Création des Videos
     var vid_dra = document.createElement('video');
-    vid_dra.src = "/vid/ba_dragon.mp4";
+    vid_dra.src = "./vid/ba_dragon.mp4";
     vid_dra.controls = true;
 
     // Ajout d'un écouteur d'événements pour le clic sur un bouton
@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     // Création des Videos
     var vid_blac = document.createElement('video');
-    vid_blac.src = "/vid/ba_blac.mp4";
+    vid_blac.src = "./vid/ba_blac.mp4";
     vid_blac.controls = true;
 
     // Ajout d'un écouteur d'événements pour le clic sur un bouton
@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     // Création des Videos
     var vid_fast = document.createElement('video');
-    vid_fast.src = "/vid/ba_fast.mp4";
+    vid_fast.src = "./vid/ba_fast.mp4";
     vid_fast.controls = true;
 
     // Ajout d'un écouteur d'événements pour le clic sur un bouton
