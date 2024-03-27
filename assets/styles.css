@@ -1,0 +1,140 @@
+/* Titre principal */
+
+h1 {
+    font-size: 100px;
+    color: red;
+    text-shadow: 5px 5px 5px white;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Titre secondaire */
+
+h2 {
+    font-size: 50px;
+    color: blue;
+    margin: 20px;
+    text-shadow: 3px 3px 5px white;
+}
+
+/* Titre film */
+h3 {
+    color: yellow;
+    text-shadow: 1px 1px 5px white;
+}
+
+/* Général */
+
+body {
+    background: url('/img/fonf.jpg');
+    background-size: cover;
+    color: white;
+}
+
+/* Nav bar */
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: gray;
+    font-size: 35px;
+    padding: 3%;
+}
+
+/* images */
+
+img {
+    margin: 10px;
+}
+
+/* img a la une */
+
+.img_new:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.img_new:not(:hover){
+    transform: scale(1);
+    transition: 1s;
+}
+
+/* Span */
+span{
+    margin: 35px;
+}
+
+        /* Section a la une */
+
+/* Toute la section */
+#New {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Section sans le titre */
+
+#new_st {
+    margin: 10px;
+    text-align: center;
+    display: flex;
+}
+
+/* class pour div film */
+
+.new_film {
+    border: gray;
+    border-radius: 15px;
+    border-style: dashed;
+    height: 10%;
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+
+}
+
+/* class paragraphe synopsis */
+
+
+        /**/
+
+       /* Section catalogue */
+
+/* Toute la section */
+#Catalogue {
+    text-align: center;
+}
+
+/* Section sans le titre */
+
+#catalogue_st {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* class pour div film */
+
+.cat {
+    border: gray;
+    border-radius: 15px;
+    border-style: dashed;
+    height: 10%;
+    padding: 20px;
+    margin: 10px;
+    width: 29%;
+}
+
+        /**/
+
+video {
+    width: 90%;
+    height: auto;
+}
+
+img {
+    width: 90%;
+    height: auto;
+}
